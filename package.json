@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.117.3",
     "@react-three/fiber": "^8.17.10",
     "lottie-player": "^1.0.0",
     "netlify-cli": "^17.37.2",
@@ -35,7 +36,6 @@
     "vite": "^5.4.10"
   },
   "engines": {
-  "node": "18.16.0"
+    "node": "18.16.0"
   }
-
 }

@@ -2,9 +2,9 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import Homepage from './components/Homepage';
 import Lottie from 'react-lottie-player';
-import Animation1 from './Lottie/Animation1.json';
 import Modal from './components/Modal';
 import { useState } from 'react';
+import Heatrate from './Lottie/Heartrate.json'
 function App() {
   const [predictionResult, setPredictionResult] = useState(null);
   return (
@@ -24,7 +24,7 @@ function App() {
           <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center bg-black text-white p-4">
           <Lottie
             loop
-            animationData={Animation1}
+            animationData={Heatrate}
             play
             style={{
               maxWidth: '50%',

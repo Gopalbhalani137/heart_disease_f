@@ -2,7 +2,7 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import Homepage from './components/Homepage';
 import Lottie from 'react-lottie-player';
-import Animation1 from './Lottie/animation1.json';
+import Animation1 from './Lottie/Animation1.json';
 import Modal from './components/Modal';
 import { useState } from 'react';
 function App() {

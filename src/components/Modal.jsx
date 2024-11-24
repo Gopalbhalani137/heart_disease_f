@@ -55,13 +55,14 @@ function Modal({ setPredictionResult }) {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(formData)
     const errors = validateInputs();
     if (errors.length > 0) {
       setErrorMessages(errors);
       return;
     }
     try {
-      const response = await fetch('http://heart-disease-prediction-b.onrender.com/predict', {
+      const response = await fetch('https://heart-disease-prediction-b.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

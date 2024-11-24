@@ -61,7 +61,7 @@ function Modal({ setPredictionResult }) {
       return;
     }
     try {
-      const response = await fetch('https://heart-disease-prediction-b.onrender.com/predict', {
+      const response = await fetch('http://heart-disease-prediction-b.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
